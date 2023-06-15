@@ -6,13 +6,6 @@ window.onload = () => {
     renderPlaces(places);
 };
 
-document.addEventListener('DOMContentLoaded', function(){ //equivalent to jQuery $('document').ready(function(){})
-    /* alert("this will show"); */
-    alert = function(){};
-    /* alert("ALL alert after this won't show"); */
-}, false);
-
-
 function staticLoadPlaces() {
     return [
         {
